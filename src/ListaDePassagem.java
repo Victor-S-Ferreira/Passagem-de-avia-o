@@ -1,7 +1,9 @@
-public class ListaDePassagem {
+import java.util.ArrayList;
+import java.util.List;
+public class ListaDePassagem extends CarrinhoDeCompras {
 
     // Uma lista para armazenar as passagens
-    private List<Passagem> passagens;
+    private List <Passagem> passagens;
 
     // Construtor da classe `ListaDePassagem` - nao recebe parametros
     public ListaDePassagem() {
